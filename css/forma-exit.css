@@ -1,0 +1,29 @@
+.form-modal__exit {
+  width: 600px;
+  height: 470px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.form-modal__title {
+  font-size: 36px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.form-modal__input {
+  display: block;
+  min-width: 513px;
+  height: 77px;
+  margin: auto;
+  margin-bottom: 42px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5) inset;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 26px;
+  box-sizing: border-box;
+}

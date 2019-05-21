@@ -1,0 +1,223 @@
+.main-page__title  {
+  font-size: 27px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.main-page__line {
+  display: block;
+  max-width: 50px;
+  height: 1px;
+  background-color: #67a8df;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.main-page__text {
+  max-width: 1011px;
+  font-size: 21px;
+  margin: auto;
+  margin-bottom: 35px;
+  padding: 0;
+  text-align: center;  
+}
+
+.main-page__img {
+  margin-bottom: 30px;
+}
+
+.main-page__card {
+  background-image: url("../img/sky-fon.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 88px;
+}
+
+.main-page__card-text {
+  position: relative;
+  color: #ffffff;
+  max-width: 1170px;
+  font-size: 53px;
+  padding: 0;
+  padding-bottom: 125px;
+  padding-top: 125px;
+  box-sizing: border-box;
+  word-wrap:break-word;
+  text-align: center;
+  margin: auto;
+}
+
+.main-page__card-text::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/open-quotes.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 80px;
+}
+
+.main-page__card-text::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/clous-quotes.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 80px;
+  left: -30px;
+}
+
+.main-page__img-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+ }
+
+ .main-page__customer {
+   background-color: #f3f3f3;
+   padding-top: 53px;
+
+ }
+
+ .main-page__list {
+   list-style: none;
+   margin-top: 68px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+
+ .main-page__item {
+   margin-right: 55px;
+   margin-bottom: 55px;
+ }
+
+.main-page__card-back {
+  width: 370px;
+  height: 247px;
+  background-color: #5a8bb4;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+  
+
+
+.main-page__card-back-logo {
+  display: block;
+  background-image: url("../img/logo_back.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 168px;
+  height: 32px;
+  margin: auto;
+
+  
+}
+.main-page__card-back-text {
+  font-size: 14px;
+  color: #ffff;
+  text-align: center;
+  width: 280px;
+  padding-top: 23px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.main-page__card-back-link {
+  display: block;
+  font-size: 22px;
+  width: 170px;
+  height: 45px;
+  line-height: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+/*  
+.main-page__img:hover {
+  animation: run 1s ease-in-out 0.5s alternate, move 5s linear 2s;
+}
+
+
+@-webkit-keyframes run {
+  0% {
+    transform: translate(0%);
+    
+  }
+  25% {
+    transform: translate(150%) scale(0.5); 
+    
+  }
+  50% {
+    transform: translate(150%, 150%);
+    
+  }
+  75% {
+    transform: translate(0%, 150%) scale(0.5); 
+    
+}
+@keyframes run {
+  0% {
+    transform: translate(0%);
+    
+  }
+  25% {
+    transform: translate(150%) scale(0.5); 
+
+  }
+  50% {
+    transform: translate(150%, 150%);
+   
+  }
+  75% {
+    transform: translate(0%, 150%) scale(0.5); 
+   
+  }
+} */
+
+.main-page__img--ali:hover {
+  transform: rotateY(360deg);
+  transition: 0.6s;
+  position: relative;
+}
+
+.main-page__img--hotel:hover {
+  transform: rotateY(360deg);
+  transition: 0.6s;
+  position: relative;
+}
+
+.main-page__img--group:hover {
+  transform: rotateY(360deg);
+  transition: 0.6s;
+  position: relative;
+}
+
+.main-page__img--mind:hover {
+  transform: rotateY(360deg);
+  transition: 0.6s;
+  position: relative;
+}
+
+.main-page__img--teleg:hover {
+  transform: rotateY(360deg);
+  transition: 0.6s;
+  position: relative;
+}
+
+.main-page__img--alix:hover {
+  transform: rotateY(360deg);
+  transition: 6s;
+  position: relative;
+}

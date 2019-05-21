@@ -1,0 +1,39 @@
+.footer-page {
+  margin: 0;
+  background-image: url("../img/footer-fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  background-position: 50% 50%;
+}
+
+.footer-page__text,
+.footer-page__contacts {
+  color: #ffffff;
+  font-size: 13px;
+  
+}
+
+.footer-page__text {
+  margin-top: 55px;
+}
+
+.footer-page__contacts {
+  margin-top: 17px;
+}
+
+.footer-page__tel {
+  margin-right: 17px;
+}
+ 
+.footer-page__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 265px;
+}
+
+.footer-page__social-cont {
+  display: flex;
+  flex-direction: column;
+}

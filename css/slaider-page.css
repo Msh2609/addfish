@@ -1,0 +1,82 @@
+.slaider-page {
+  background-image: url("../img/water-fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 1160px;
+  margin-bottom: 60px;
+}
+
+.slaider-page__header {
+  padding-top: 300px;
+}
+
+.slaider-page__slaider {
+  max-width: 800px;
+  margin: auto;
+}
+
+.slaider-page__slaider input[type="radio"] {
+  display: none;
+}
+
+.slaider-page__controls {
+  text-align: center;
+}
+
+.slaider-page__controls label {
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  transform: translateX(-50%);
+  background-color: #000000;
+  cursor: pointer;
+}
+
+#btn-1:checked ~ .slaider-page__controls label [for="btn-1"] {
+  background-color: #ffffff; 
+}
+
+#btn-1:checked ~ .slaider-page__controls label[for="btn-1"],
+#btn-2:checked ~ .slaider-page__controls label[for="btn-2"],
+#btn-3:checked ~ .slaider-page__controls label[for="btn-3"],
+#btn-4:checked ~ .slaider-page__controls label[for="btn-4"] {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.slaider-page__list {
+  margin: 0;
+  padding: 0;
+}
+
+.slaider-page__item {
+  list-style: none;
+  display: none;
+}
+
+.slaider-page__text {
+  font-size: 27px;
+  text-align: center;
+}
+
+#btn-1:checked ~ .slaider-page__list .slaider-page__item:nth-child(1) {
+  display: block;
+}
+
+#btn-2:checked ~ .slaider-page__list .slaider-page__item:nth-child(2) {
+  display: block;
+}
+
+#btn-3:checked ~ .slaider-page__list .slaider-page__item:nth-child(3) {
+  display: block;
+}
+
+#btn-4:checked ~ .slaider-page__list .slaider-page__item:nth-child(4) {
+  display: block;
+}

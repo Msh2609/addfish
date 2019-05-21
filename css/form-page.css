@@ -1,0 +1,52 @@
+.form-page__form {
+  width: 600px;
+  height: 745px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.form-page__title {
+  font-size: 36px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form-page__offer {
+  font-size: 18px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.form-page__input {
+  display: block;
+  min-width: 513px;
+  height: 77px;
+  margin: auto;
+  margin-bottom: 40px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5) inset;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 26px;
+  box-sizing: border-box;
+}
+
+.form-page__btn {
+  margin-top: 35px;
+  text-align: center; 
+}
+
+.form-page__btn-reg {
+  min-width: 508px;
+  height: 63px;
+  background-color: #31aae2;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
