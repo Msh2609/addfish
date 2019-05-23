@@ -1,0 +1,40 @@
+.flip-container {
+  perspective: 1000;
+ }
+  /* переверните сторону при проведении мышью */
+  .flip-container:hover .main-page__flipper, .flip-container.hover .main-page__flipper{
+  transform: rotateY(180deg);
+  }
+  
+  .flip-container, .main-page__front, .main-page__back {
+    width: 368px;
+    height: 240px;
+    margin-bottom: 30px;
+   }
+    
+ /* здесь находится скорость перевертывания */
+ .main-page__flipper {
+  transition: 0.8s;
+  transform-style: preserve-3d;
+  position: relative;
+ }
+  
+ /* скройте обратную сторону во время переворота */
+ .main-page__front, .main-page__back {
+  backface-visibility: hidden;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+ }
+  
+ /* лицевая сторона размещена над обратной */
+ .main-page__front {
+  z-index: 2;
+ }
+  
+ /* обратная, изначально скрытая сторона */
+ .main-page__back {
+  transform: rotateY(180deg);
+ }
+
